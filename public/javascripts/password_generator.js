@@ -4,20 +4,11 @@ function sample(collection){
   return collection[randomIndex]
 }
 
-function generatePassword(){
+function generatePassword(options){
   const lowercaseLetters = 'abcdefghijklmnopqrstuvwxyz'
   const uppercaseLetters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
   const numbers = '1234567890'
   const symbols = '`~!@#$%^&*()_+-={}[]|":;<>?/'
-
-  const options = {
-    length: '12',
-    lowercase: 'on',
-    uppercase: 'on',
-    numbers: 'on',
-    symbols: 'on',
-    excludeCharacters: ''
-  }
 
   let collection = []
 
