@@ -3,9 +3,9 @@ An application that allows users to generate a random password.
 ## Features
 + Users can generate a random password between 4 and 16 characters.
 + Users can exclude characters.
-+ ![image](https://github.com/pinjunpan/passwords/blob/main/public/images/password_generator.png)
-+ ![image](https://github.com/pinjunpan/passwords/blob/main/public/images/password.png)
-+ ![image](https://github.com/pinjunpan/passwords/blob/main/public/images/error_notice.png)
+![image](https://github.com/pinjunpan/passwords/blob/main/public/images/password_generator.png)
+![image](https://github.com/pinjunpan/passwords/blob/main/public/images/password.png)
+![image](https://github.com/pinjunpan/passwords/blob/main/public/images/error_notice.png)
 ## Getting Started
 ### Prerequisites
 + Node.js v20.15.1
