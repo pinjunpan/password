@@ -35,6 +35,16 @@ function generatePassword(options){
     )
   }
 
+  //return error notice if collection is empty
+  if(collection.length === 0){
+    return 'There is no valid characters in your selection.'
+  }
+
+  if(options.length < 4 || options.length > 16 || options.length===''){
+    return 'Please enter a valid number.'
+  }
+
+  //start generating password
   let password = ''
   for(let i = 1; i <= options.length; i++){
     password += sample(collection)
